@@ -1,12 +1,23 @@
-# Sloth-StratAlign-Eido
+<p align="center">
+  <img src="assets/sloth-avatar-round.png" width="120" />
+</p>
+
+<h1 align="center">Sloth-StratAlign-Eido</h1>
+
+<p align="center">
+  <strong>同辙 · StratAlign — 企业数字化转型战略对齐引擎</strong><br/>
+  Phase 1 (v0.5.0-beta): 核心引擎 — AI 评分矩阵、问卷引擎、方法论文档
+</p>
+
+<p align="center">
+  <img src="assets/qrcode.jpg" width="140" /><br/>
+  <sub>扫码关注 <strong>树懒老K</strong> · 获取更多 AI 技能</sub><br/>
+  <em>慢一点，深一度</em>
+</p>
 
 ![Version](https://img.shields.io/badge/version-0.5.0--beta-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Phase](https://img.shields.io/badge/phase-1%20Core-orange)
-
-**同辙 · StratAlign** — 企业数字化转型战略对齐引擎
-
-> Phase 1 (v0.5.0-beta): 核心引擎 — AI 评分矩阵、问卷引擎、方法论文档
 
 ---
 
