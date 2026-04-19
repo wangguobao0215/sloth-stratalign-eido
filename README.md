@@ -1,111 +1,111 @@
-# sloth-stratalign-eido
+# Sloth-StratAlign-Eido
 
 ![Version](https://img.shields.io/badge/version-0.5.0--beta-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Phase](https://img.shields.io/badge/phase-1%20Core-orange)
 
-**StratAlign** — Enterprise Digital Transformation Strategic Alignment Engine
+**同辙 · StratAlign** — 企业数字化转型战略对齐引擎
 
-> Phase 1 (v0.5.0-beta): Core Engine with AI Scoring, Questionnaire Engine, and Methodology
+> Phase 1 (v0.5.0-beta): 核心引擎 — AI 评分矩阵、问卷引擎、方法论文档
 
 ---
 
-## What is StratAlign?
+## 这是什么？
 
-StratAlign is an AI-powered skill that guides enterprises through digital transformation strategic planning. Through structured dialogue, it decodes corporate strategy layer-by-layer into an actionable digital investment portfolio, identifying the highest-value AI opportunities along the way.
+同辙 · StratAlign 是一款 AI 驱动的企业数字化转型战略规划技能。通过结构化对话，将企业战略逐层解码为可执行的数字化投资组合，同时利用 AI 原生潜力评分矩阵识别最高价值的智能化切入点。
 
-## Key Features (Phase 1)
+## 核心功能 (Phase 1)
 
-### Core Modules
-1. **Strategic Decoding** — Vision/mission clarification, strategic theme extraction, BSC four-perspective objective decomposition
-2. **Bottleneck Scan** — Process pain points, capability gaps, technical & organizational debt assessment
-3. **AI-Native Potential Triage** — 3-dimension scoring matrix (Rule Explicitness x Data Modality x Decision Frequency) with Data Infrastructure Coefficient
-4. **Coverage Analysis** — IT landscape scanning, business-to-IT capability mapping, gap identification
-5. **Investment Portfolio** — Project prioritization with ROI estimates, quick-win/strategic/foundation grouping, roadmap generation
+### 五大模块
+1. **战略解码** — 愿景/使命澄清、战略主题提取、BSC 四维目标分解
+2. **瓶颈扫描** — 业务流程痛点、能力差距、技术与组织债务评估
+3. **AI 原生潜力分诊** — 三维评分矩阵 (规则显性度 x 数据模态 x 决策频率) + 数据基础设施系数
+4. **覆盖分析** — IT 系统全景扫描、业务→IT 能力映射、空白识别
+5. **投资组合** — 项目优先级排序 + ROI 估算、快赢/战略/基础分组、路线图
 
-### New in Phase 1
-- **AI Scoring Matrix**: Quantitative 3-dimension model scoring business scenarios for AI potential (max score: 125)
-- **Strategy Contradiction Detection**: Auto-detect logical conflicts between strategic objectives
-- **Questionnaire Engine**: 35+ structured questions across 5 modules with progressive dialogue flow
-- **Methodology Reference**: BSC indicators (20 measurable KPIs) and EA mapping methodology
-- **Term Simplification Dictionary**: 24 technical terms mapped to plain-language equivalents
-- **Mini Diagnostic Card**: 200-word condensed diagnostic for quick executive briefing
-- **Bidirectional Verification**: Top-down (Strategy to Investment) and Bottom-up (Investment to Strategy) alignment checks
+### Phase 1 新增能力
+- **AI 评分矩阵**: 三维量化模型，为业务场景的 AI 潜力打分 (满分 125)
+- **战略矛盾检测**: 自动识别战略目标之间的逻辑矛盾
+- **问卷引擎**: 五模块 35+ 结构化问题，渐进式对话引导
+- **方法论参考**: BSC 四维指标体系 (20 个可量化 KPI) + EA 映射方法论
+- **术语简化词典**: 24 个专业术语的通俗表达对照
+- **迷你诊断卡**: 200 词浓缩诊断，适合高管快速阅读
+- **双向验证**: 自顶向下 + 自底向上的战略对齐检查
 
-## AI Scoring Formula
+## AI 评分公式
 
 ```
-Final Score = (Rule Explicitness x Data Modality x Decision Frequency) x Data Infrastructure Coefficient
+最终得分 = (规则显性度 × 数据模态 × 决策频率) × 数据基础设施系数
 
-Dimensions (1-5 each):
-  - Rule Explicitness: How well-documented are business rules?
-  - Data Modality: How digitized and structured is the data?
-  - Decision Frequency: How often do decisions occur?
+三个维度 (各 1-5 分):
+  - 规则显性度: 业务规则的文档化与标准化程度
+  - 数据模态: 数据的数字化与结构化水平
+  - 决策频率: 决策发生的时间频率
 
-Data Infrastructure Coefficient:
-  - 0.3 = No data foundation
-  - 0.6 = Scattered data
-  - 1.0 = Structured, unified data platform
+数据基础设施系数:
+  - 0.3 = 无数据基础
+  - 0.6 = 数据分散
+  - 1.0 = 结构化统一数据平台
 ```
 
-## File Structure
+## 文件结构
 
 ```
 phase-1-core/
-  SKILL.md                  # Skill definition (main entry point)
-  methodology.md            # BSC indicators & EA mapping methodology
-  questionnaire-engine.md   # 5-module structured questionnaire
-  ai-native-scoring.md      # AI scoring criteria & rubric
-  term-dictionary.md        # 24-term simplification dictionary
-  report-template.md        # Full diagnostic report template
-  report-template-mini.md   # Mini diagnostic card (200 words)
-  examples.md               # Worked examples & demonstrations
-  README.md                 # This file (English)
-  README_zh.md              # Chinese README
-  CHANGELOG.md              # Version history
+  SKILL.md                  # 技能定义 (主入口)
+  methodology.md            # BSC 指标体系 & EA 映射方法论
+  questionnaire-engine.md   # 五模块结构化问卷
+  ai-native-scoring.md      # AI 评分标准与评分细则
+  term-dictionary.md        # 24 术语简化词典
+  report-template.md        # 完整诊断报告模板
+  report-template-mini.md   # 迷你诊断卡 (200 词)
+  examples.md               # 示例与演示
+  README.md                 # 本文件 (中文说明)
+  README_EN.md              # 英文说明
+  CHANGELOG.md              # 版本变更日志
 ```
 
-## Quick Start
+## 快速开始
 
-Invoke the skill and describe your company's situation:
+启动技能并描述您的企业情况:
 
 ```
-> Our company wants to do digital transformation but doesn't know where to start.
+> 我们公司想做数字化转型，不知道从哪里开始。
 ```
 
-The engine will guide you through each module with structured questions.
+引擎会引导您逐步完成每个模块的问卷对话。
 
-To jump to a specific module:
+跳转到指定模块:
 ```
-> Jump to AI scenario assessment
-```
-
-To generate output:
-```
-> Generate diagnostic report
-> Generate mini diagnostic card
+> 直接做 AI 场景评估
 ```
 
-## Target Audience
+生成报告:
+```
+> 生成诊断报告
+> 生成迷你诊断卡
+```
 
-- CIO / CTO / CDO (Chief Digital Officer)
-- Strategic Planning departments
-- Digital Transformation offices
-- IT Planning teams
-- Management Consultants
+## 适用对象
 
-## Methodology Foundation
+- CIO / CTO / CDO (首席数字官)
+- 战略规划部门
+- 数字化转型办公室
+- IT 规划团队
+- 管理咨询顾问
 
-- **Balanced Scorecard (BSC)** — Kaplan & Norton (1992)
-- **Enterprise Architecture (EA)** — TOGAF / Zachman
-- **AI Readiness Assessment** — Proprietary 3-dimension scoring model
-- **Portfolio Management** — MoSCoW + RICE hybrid framework
+## 方法论基础
 
-## Version
+- **平衡计分卡 (BSC)** — Kaplan & Norton (1992)
+- **企业架构 (EA)** — TOGAF / Zachman
+- **AI 就绪度评估** — 自研三维评分模型
+- **投资组合管理** — MoSCoW + RICE 混合框架
 
-- Current: **0.5.0-beta** (Phase 1 — Core Engine)
-- See [CHANGELOG.md](CHANGELOG.md) for full version history
+## 版本
 
-## License
+- 当前版本: **0.5.0-beta** (Phase 1 — 核心引擎)
+- 完整变更日志见 [CHANGELOG.md](CHANGELOG.md)
+
+## 许可证
 
 MIT License

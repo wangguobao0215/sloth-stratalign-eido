@@ -1,7 +1,8 @@
 ---
-name: sloth-stratalign-eido
+name: Sloth-StratAlign-Eido
 version: 0.5.0-beta
-description: "同辙 · StratAlign — 企业数字化转型战略对齐引擎 | Enterprise Digital Transformation Strategic Alignment Engine"
+description: "Enterprise Digital Transformation Strategic Alignment Engine — layer-by-layer strategy decoding with AI-Native Potential Scoring."
+description_zh: "企业数字化转型战略对齐引擎：逐层解码战略为可执行的数字化投资组合，含 AI 原生潜力评分。"
 author: sloth-lab
 tags:
   - digital-transformation
@@ -138,7 +139,7 @@ Final Score = AI Potential × Data Infrastructure Coefficient
 本技能使用通俗语言替代专业术语，降低沟通门槛。
 This skill uses plain language to replace jargon, lowering communication barriers.
 
-完整词典见 → `term-dictionary.md`
+完整词典见 → `references/term-dictionary.md`
 
 | 专业术语 | 通俗表达 | English |
 |---|---|---|
@@ -152,13 +153,13 @@ This skill uses plain language to replace jargon, lowering communication barrier
 
 | 文件 File | 说明 Description |
 |---|---|
-| `methodology.md` | BSC 四维指标体系 & EA 映射方法论 |
-| `questionnaire-engine.md` | 五模块结构化问卷引擎 |
-| `ai-native-scoring.md` | AI 原生潜力评分详细标准 |
-| `term-dictionary.md` | 24 术语简化词典 |
-| `report-template.md` | 完整诊断报告模板 |
-| `report-template-mini.md` | 迷你诊断卡模板 (200 词) |
-| `examples.md` | 示例与演示 |
+| `references/methodology.md` | BSC 四维指标体系 & EA 映射方法论 |
+| `references/questionnaire-engine.md` | 五模块结构化问卷引擎 |
+| `references/ai-native-scoring.md` | AI 原生潜力评分详细标准 |
+| `references/term-dictionary.md` | 24 术语简化词典 |
+| `references/report-template.md` | 完整诊断报告模板 |
+| `references/report-template-mini.md` | 迷你诊断卡模板 (200 词) |
+| `references/examples.md` | 示例与演示 |
 
 ---
 
@@ -211,7 +212,7 @@ User: Generate diagnostic report
 - **AI 就绪度评估** — 自研三维评分模型
 - **投资组合管理** — MoSCoW + RICE 混合框架
 
-详细方法论 → `methodology.md`
+详细方法论 → `references/methodology.md`
 
 ---
 
