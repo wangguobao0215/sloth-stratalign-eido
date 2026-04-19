@@ -14,8 +14,12 @@ tags:
 
 # 同辙 · StratAlign
 
+> <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-StratAlign-Eido/main/assets/sloth-avatar-round.png" width="80" /></p>
+>
 > 战略不落地，数字化就是空中楼阁。
 > Strategy without execution is a castle in the sky.
+>
+> <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-StratAlign-Eido/main/assets/qrcode.jpg" width="120" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能</sub><br/><i>慢一点，深一度</i></p>
 
 ## 概述 | Overview
 
