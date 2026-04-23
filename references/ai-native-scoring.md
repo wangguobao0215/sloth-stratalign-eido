@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — AI 原生潜力评分标准
+# 深略 · StratAlign — AI 原生潜力评分标准
 # AI-Native Potential Scoring Criteria
 
 <!-- LANGUAGE HANDLING INSTRUCTIONS:
@@ -442,5 +442,5 @@ When a scenario score is near a tier boundary (75, 50, 25), the key question is:
 
 ---
 
-*同辙 StratAlign — AI 原生潜力评分标准 v1.1.0 | AI-Native Potential Scoring Criteria v1.1.0*
+*深略 StratAlign — AI 原生潜力评分标准 v1.1.0 | AI-Native Potential Scoring Criteria v1.1.0*
 *支持中英双语输出 | Bilingual (Chinese/English) output supported*

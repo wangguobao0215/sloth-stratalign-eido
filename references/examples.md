@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — 示例与演示 (咨询顾问视角)
+# 深略 · StratAlign — 示例与演示 (咨询顾问视角)
 # Examples & Demonstrations (Management Consultant Perspective)
 
 > 版本 Version: 1.0.0 | 面向用户: 管理咨询顾问 | Target User: Management Consultants
@@ -395,4 +395,4 @@ ROI = (总收益 - 总成本) / 总成本 = (930 - 235) / 235 = 295.7%
 ---
 
 *示例基于虚构企业，仅作演示用途 | Examples based on fictional company, for demonstration only*
-*同辙 · StratAlign v1.0.0*
+*深略 · StratAlign v1.0.0*

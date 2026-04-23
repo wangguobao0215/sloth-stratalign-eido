@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to 同辙 · StratAlign will be documented in this file.
+All notable changes to 深略 · StratAlign will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
@@ -151,4 +151,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
-*同辙 · StratAlign | sloth-stratalign-eido*
+*深略 · StratAlign | sloth-stratalign-eido*

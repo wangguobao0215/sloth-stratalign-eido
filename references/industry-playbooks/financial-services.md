@@ -414,4 +414,4 @@ ST-5_open_banking: 0.15      # 开放银行/保险
 ---
 
 *金融服务业行业剧本 v1.0 | Financial Services Industry Playbook v1.0*
-*适用于同辙 StratAlign 数字化转型咨询框架 | For use with StratAlign Digital Transformation Consulting Framework*
+*适用于深略 StratAlign 数字化转型咨询框架 | For use with StratAlign Digital Transformation Consulting Framework*

@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — 术语简化词典
+# 深略 · StratAlign — 术语简化词典
 # Term Simplification Dictionary
 
 > 用通俗语言替代专业术语，让非技术高管也能轻松理解。

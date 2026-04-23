@@ -5,7 +5,7 @@
 <h1 align="center">Sloth-StratAlign-Eido</h1>
 
 <p align="center">
-  <strong>StratAlign — Strategic Alignment Accelerator for Management Consultants</strong><br/>
+  <strong>深略 · StratAlign — Strategic Alignment Accelerator for Management Consultants</strong><br/>
   From strategy decoding to actionable digital investment portfolio with AI-Native scoring, industry playbooks, and consultant-grade narrative reports.
 </p>
 

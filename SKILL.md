@@ -2,7 +2,7 @@
 name: sloth-stratalign-eido
 version: 1.4.0
 description: "Strategic Alignment Accelerator for Management Consultants — from strategy decoding to actionable digital investment portfolio with AI-Native scoring, industry playbooks, and consultant-grade narrative reports. Use when conducting enterprise digital transformation diagnostics, strategic alignment analysis, AI-native potential scoring, or layer-by-layer strategy decoding."
-description_zh: "管理咨询顾问的战略对齐加速器：从战略解码到可执行数字化投资组合，内置 AI 原生潜力评分、行业剧本库、顾问级叙事报告。"
+description_zh: "深略 · 战略对齐 — 管理咨询顾问的战略对齐加速器：从战略解码到可执行数字化投资组合，内置 AI 原生潜力评分、行业剧本库、顾问级叙事报告。"
 author: sloth-lab
 tags:
   - management-consulting
@@ -14,7 +14,7 @@ tags:
   - industry-playbook
 ---
 
-# 同辙 · StratAlign
+# 深略 · StratAlign
 
 > <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-StratAlign-Eido/main/assets/qrcode.jpg" width="80" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能</sub><br/><i>慢一点，深一度</i></p>
 >
@@ -35,7 +35,7 @@ Upon activation, **Step 1** — display the welcome page (always bilingual):
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  同辙 · StratAlign — 战略对齐加速器 | Strategic Alignment Accelerator
+  深略 · StratAlign — 战略对齐加速器 | Strategic Alignment Accelerator
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -200,7 +200,7 @@ All reference files in this skill (`references/` directory) contain bilingual co
 
 ## 概述 | Overview
 
-同辙 · StratAlign 是一款面向**管理咨询顾问**的战略对齐加速器。它通过行业剧本预填、结构化问卷引擎和 AI 原生潜力评分，将顾问在数字化转型战略项目中的数据收集、分析建模、报告撰写效率提升 3-5 倍。
+深略 · StratAlign 是一款面向**管理咨询顾问**的战略对齐加速器。它通过行业剧本预填、结构化问卷引擎和 AI 原生潜力评分，将顾问在数字化转型战略项目中的数据收集、分析建模、报告撰写效率提升 3-5 倍。
 
 StratAlign is a **strategic alignment accelerator for management consultants**. Through industry playbook pre-fills, a structured questionnaire engine, and AI-Native Potential Scoring, it boosts consultant efficiency 3-5x in data collection, analytical modeling, and report writing for digital transformation strategy engagements.
 

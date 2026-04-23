@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — 迷你诊断卡
+# 深略 · StratAlign — 迷你诊断卡
 # Mini Diagnostic Card
 
 ---
@@ -49,4 +49,4 @@
 
 ---
 
-*同辙 · StratAlign v0.5.0-beta 迷你诊断卡 | Mini Diagnostic Card*
+*深略 · StratAlign v0.5.0-beta 迷你诊断卡 | Mini Diagnostic Card*

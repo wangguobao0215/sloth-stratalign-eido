@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — 企业情报采集引擎
+# 深略 · StratAlign — 企业情报采集引擎
 # Enterprise Intelligence Gathering Engine
 
 > 融合 OSINT 结构化情报方法论与 Web 采集最佳实践，为管理咨询场景提供可追溯、有置信度的客户数据。

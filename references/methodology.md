@@ -1,4 +1,4 @@
-# 同辙 · StratAlign — 方法论参考
+# 深略 · StratAlign — 方法论参考
 # Methodology Reference
 
 <!-- LANGUAGE HANDLING INSTRUCTIONS:

@@ -448,4 +448,4 @@ ST-5_research_excellence: 0.15  # 科研卓越
 ---
 
 *医疗健康行业剧本 v1.0 | Healthcare Industry Playbook v1.0*
-*适用于同辙 StratAlign 数字化转型咨询框架 | For use with StratAlign Digital Transformation Consulting Framework*
+*适用于深略 StratAlign 数字化转型咨询框架 | For use with StratAlign Digital Transformation Consulting Framework*
