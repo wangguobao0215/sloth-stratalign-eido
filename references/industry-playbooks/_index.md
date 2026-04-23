@@ -55,13 +55,21 @@ Each playbook contains 9 standard sections:
 
 ## 自定义剧本 | Custom Playbooks
 
-顾问可基于现有剧本创建自定义版本:
-Consultants can create custom versions based on existing playbooks:
+顾问可基于现有剧本创建自定义版本。详细流程如下：
 
-- 复制最接近的行业剧本 — Copy the closest industry playbook
-- 调整战略主题、痛点、AI 场景 — Adjust strategic themes, pain points, AI scenarios
-- 修改 BSC 基准指标 — Modify BSC benchmark indicators
-- 保存为新文件并在 Module 0 中选择 — Save as new file and select in Module 0
+### 自定义步骤
+
+1. **选择基线剧本**：复制与目标客户最接近的行业剧本作为模板
+2. **调整行业特征**：更新行业定义、子行业覆盖范围、核心指标
+3. **定制战略主题**：根据客户实际情况修改 5 个预设战略主题，确保映射 BSC 四维
+4. **更新痛点库**：替换或补充 10 个常见数字化转型痛点，按对客户的影响程度排序
+5. **调整 IT 基准**：修改核心 IT 系统版图及成熟度基准，反映行业真实水平
+6. **修订 L1-L2 能力地图**：调整业务能力分解，匹配客户的组织架构
+7. **预评分 AI 场景**：基于行业知识为 7 个 AI 应用场景进行 D1-D4 四维预评分
+8. **修改 BSC 基准指标**：更新四维基准指标及目标值
+9. **设置问卷预填默认值**：为 Module 1-4 各模块配置 YAML 格式的预设默认值
+10. **添加顾问贴士**：记录行业特有的咨询注意事项和常见陷阱
+11. **保存并加载**：保存为新文件（`custom-industry-name.md`），在 Module 0 中选择"自定义剧本"并指定文件路径
 
 ### 命名规范 | Naming Convention
 
@@ -75,6 +83,31 @@ Consultants can create custom versions based on existing playbooks:
 2. 确保 9 个标准章节齐全
 3. 更新本索引文件 `_index.md` 的可用剧本表
 4. 经至少一位行业专家审核后合并
+
+---
+
+## 多业态企业剧本加载策略 | Multi-Business Playbook Loading
+
+当客户企业涉及多个业态（如海尔集团涉及智慧家庭、工业互联网、大健康）时：
+
+### 加载规则
+
+1. **主剧本确定**：按营收占比最高的业务板块确定主行业剧本，作为诊断的主要框架
+2. **辅助剧本引用**：对次要业务板块（营收占比 >15%），引用对应行业剧本的以下部分：
+   - BSC 基准指标（用于该板块的目标设定）
+   - AI 机会目录（用于该板块的 AI 场景识别）
+   - IT 基准模板（用于该板块的系统盘点）
+3. **跨板块整合**：在 Module 4 投资组合阶段，将各板块的推荐项目合并到统一的投资组合中，标注项目所属板块
+4. **报告输出**：诊断报告中按板块分别呈现分析结果，并在 Executive Summary 中给出跨板块协同建议
+
+### 操作示例
+
+```
+顾问: 客户是海尔集团，涉及智慧家庭和工业互联网两个板块
+系统: 检测到多业态企业。主业务"智慧家庭"加载制造业-家电剧本，
+      次要业务"工业互联网"加载制造业-装备制造剧本作为辅助。
+      是否确认？或需要调整主次关系？
+```
 
 ---
 

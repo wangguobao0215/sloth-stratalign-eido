@@ -41,7 +41,7 @@
 ### v1.0.0 核心升级
 - **用户定位聚焦**: 管理咨询顾问效率工具
 - **AI 评分模型**: 纯乘法 → 四维加权模型 (规则 25% + 数据 30% + 频率 20% + 实施复杂度 25%)，0-100 分制
-- **行业剧本库**: 制造业 / 零售 / 金融服务 / 医疗健康 / 专业服务
+- **行业剧本库**: 制造业 / 零售 / 金融服务 / 医疗健康 / 专业服务 / 能源与公用事业 / 交通运输与物流 / 房地产与建筑（共 8 个）
 - **报告模板**: 填空式 → 叙事结构 + Executive Summary + 风险情景分析
 - **方法论增强**: 战略假设清单 + L1-L2 能力分层 + 应用健康度四象限 + ROI 计算模板
 - **问卷引擎**: Module 0 行业检测 + 三种顾问模式 + 预填默认值 + 完整性验证
@@ -71,11 +71,14 @@ Sloth-StratAlign-Eido/
 │   ├── examples.md                   # 顾问视角示例
 │   └── industry-playbooks/           # 行业剧本库
 │       ├── _index.md                 # 剧本索引
-│       ├── manufacturing.md          # 制造业
-│       ├── retail.md                 # 零售业
-│       ├── financial-services.md     # 金融服务
-│       ├── healthcare.md             # 医疗健康
-│       └── professional-services.md  # 专业服务
+│       ├── manufacturing.md              # 制造业
+│       ├── retail.md                     # 零售业
+│       ├── financial-services.md         # 金融服务
+│       ├── healthcare.md                 # 医疗健康
+│       ├── professional-services.md      # 专业服务
+│       ├── energy-utilities.md           # 能源与公用事业
+│       ├── transportation-logistics.md   # 交通运输与物流
+│       └── real-estate-construction.md   # 房地产与建筑
 ├── assets/                           # 品牌资源
 ├── README.md                         # 本文件
 ├── README_EN.md                      # English README
@@ -118,8 +121,21 @@ Sloth-StratAlign-Eido/
 
 ## 版本
 
-- 当前版本: **1.0.0**
+- 当前版本: **1.4.0**
 - 完整变更日志见 [CHANGELOG.md](CHANGELOG.md)
+
+### v1.4.0 新增能力
+- 8 大行业剧本（新增能源/交通物流/房地产建筑）
+- 四维加权 AI 评分模型（规则25%+数据30%+频率20%+实施复杂度25%）
+- 双语欢迎页面 + 语言分层（交互语言/成果物语言独立设置）
+- 联网情报采集协议（OSINT引擎 + 置信度标注 + 强制搜索触发点）
+- 敏感性分析
+- 完整 ROI 计算（NPV + 回收期 + 现金流时间线）
+- 三情景分析（乐观/基准/悲观）
+- 风险登记册
+- L1-L2 能力热力图
+- 应用组合健康度四象限
+- 战略假设清单（If-Then-Because）
 
 ## 许可证
 
