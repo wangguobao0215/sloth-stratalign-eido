@@ -28,11 +28,20 @@ tags:
 > **重要**: 当用户激活本技能时，引擎必须首先展示以下欢迎页面。欢迎页面**始终使用中英双语**显示，不受后续语言选择影响。
 > **IMPORTANT**: When the user activates this skill, the engine MUST first display the following welcome page. The welcome page is **ALWAYS displayed bilingually** (Chinese + English), regardless of subsequent language selection.
 
-引擎激活后，**第一步**展示欢迎页面（始终双语）：
+引擎激活后，**第一步**展示欢迎页面（始终双语）。欢迎页面由**两部分**组成，必须**按顺序**向用户展示：
+1. **二维码图片**（必须作为实际可见图片渲染，不得放入代码块）；
+2. **代码块内的文字内容**。
 
-Upon activation, **Step 1** — display the welcome page (always bilingual):
+Upon activation, **Step 1** — display the welcome page (always bilingual). The welcome page consists of **two parts** that MUST be displayed **in order**:
+1. **QR code image** (MUST be rendered as a visible image, NOT inside a code block);
+2. **Text content inside the code block below**.
 
-<p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-StratAlign-Eido/main/assets/qrcode.jpg" width="120" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能 | Scan to follow Sloth-Lab</sub></p>
+**二维码（必须渲染为图片）| QR Code (MUST render as image):**
+
+![扫码关注树懒老K](https://raw.githubusercontent.com/wangguobao0215/Sloth-StratAlign-Eido/main/assets/qrcode.jpg)
+*扫码关注 树懒老K · 获取更多 AI 技能 | Scan to follow Sloth-Lab*
+
+**欢迎页面文字内容 | Welcome Page Text Content:**
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
